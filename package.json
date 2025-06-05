@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "npx tsc",
+    "postinstall": "npm install typescript -g"
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "migrate": "drizzle-kit migrate",
